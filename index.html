@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hindi Web Fonts Example</title>
+    <link href='http://fonts.googleapis.com/css?family=Hind:700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+    <link href='reset.css' rel='stylesheet' type='text/css'>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+<div id="content">  
+
+<section id="bandflyer">   
+    
+    
+    <h1 id="headline">भारत की सिम्फनी <br />ऑर्केस्ट्रा</h1>
+
+
+
+
+
+    <h2 id="description_fit"> विशेष अतिथि के साथ <span id="description_fit_big"> ए. आर. रहमान</span></h2>
+    <h3>जमशेद भाभा रंगमंच ★ कला प्रदर्शन के लिए राष्ट्रीय केन्द्र पर ★ 29 नवंबर 2014 शनि</h3>
+    <h4>Meraevents.com से अब एक टिकट खरीदें</h4>
+    <h5>© 2012 tdb inc. all rights reserved.</h5>
+
+</section> 
+</div>  
+    <script src="jquery.fittext.js"></script>
+    <script>
+        jQuery("#headline").fitText(0.1, { minFontSize: '40px', maxFontSize: '160px' });
+          jQuery("#description_fit_big").fitText(0.1, { minFontSize: '40px', maxFontSize: '90px' });
+         jQuery("#description_fit").fitText(0.1, { minFontSize: '40px', maxFontSize: '60px' });
+         
+    </script>
+</body>
+
+</html>
