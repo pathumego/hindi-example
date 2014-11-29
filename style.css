@@ -55,8 +55,12 @@ font: 95px/1"Hind";
 
 
 
-@media only screen and (max-device-width: 780px) {
+@media only screen and (max-device-width: 480px) {
     #content {
         width: 100%;
     }
+    body {
+    background: #000;
+
+}
 }
