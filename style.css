@@ -17,6 +17,7 @@ body {
 /* Content*/
 
 h1 {
+    font: 95px/1"Hind";
     background: #b3dced;
     /* Old browsers */
     background: -moz-linear-gradient(top, #b3dced 0%, #00aded 100%);
@@ -36,7 +37,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 35px;
-    text-align: left;
+    text-align: center;
     color: #fff;
     display: block;
     margin: 5% auto 5%;
@@ -46,6 +47,18 @@ section#bandflyer {
     padding: 80px;
     height: 100%;
 }
+
+
+h2{
+font: 95px/1"Hind";
+}
+
+h3{
+font: 95px/1"Hind";
+}
+
+
+
 @media only screen and (max-device-width: 480px) {
     body {
         background: #000;
