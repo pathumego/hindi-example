@@ -48,10 +48,17 @@ section#bandflyer {
 
 h2{
 font: 95px/1"Hind";
+font-weight: 700;
+}
+
+#description_fit_big{
+font-weight: 600;
 }
 
 h3{
 font: 95px/1"Hind";
+color: #7DBFD7;
+font-weight: 700;
 }
 
 
