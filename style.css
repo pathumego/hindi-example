@@ -13,7 +13,7 @@ body {
     width: 90%;
     max-width: 1200px;
 }
-/* Content*/
+/* Band Flyer*/
 
 h1 {
  
@@ -49,6 +49,7 @@ section#bandflyer {
 h2{
 font: 95px/1"Hind";
 font-weight: 700;
+    text-align: center;
 }
 
 #description_fit_big{
@@ -57,8 +58,15 @@ font-weight: 600;
 
 h3{
 font: 95px/1"Hind";
-color: #7DBFD7;
+color: #D2F3FF;
 font-weight: 700;
+}
+
+#copyright{
+font-weight: 700;
+text-align: center;
+color: #888;
+margin-top: 100px;
 }
 
 
@@ -72,3 +80,4 @@ font-weight: 700;
 
 }
 }
+
