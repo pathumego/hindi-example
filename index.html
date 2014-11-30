@@ -8,7 +8,6 @@
     <link href='style.css' rel='stylesheet' type='text/css'>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
-
 </head>
 
 <body>
@@ -16,8 +15,8 @@
 
     <section id="bandflyer">   
         <h1 id="headline">
-            भारत की सिम्फनी <br />ऑर्केस्ट्रा
-        </h1>
+            भारत की सिम्फनी </h1> <br /><h1 id="h1_big">ऑर्केस्ट्रा</span>
+        
 
         <h2 class="description_fit">
             विशेष अतिथि के साथ 
@@ -37,8 +36,10 @@
 </div>  
     <script src="jquery.fittext.js"></script>
     <script>
-        jQuery("#headline").fitText(0.1, { minFontSize: '40px', maxFontSize: '160px' });
-          jQuery("#description_fit_big").fitText(0.1, { minFontSize: '40px', maxFontSize: '90px' });
+       
+        $("#headline").fitText(.3, {maxFontSize: '170px'});
+        $("#h1_big").fitText(.2, {maxFontSize: '350px'});
+
          jQuery(".description_fit").fitText(0.1, { minFontSize: '40px', maxFontSize: '50px' });
             jQuery("#copyright").fitText(0.1, { minFontSize: '20px', maxFontSize: '30px' });
         
