@@ -35,11 +35,11 @@ h1 {
     /* IE6-9 */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-top: 35px;
+    padding-top: 60px;
     text-align: left;
     color: #fff;
     display: block;
-    margin: 5% auto 5%;
+    margin: 0% auto 0%;
 }
 section#bandflyer {
     background: #000;
